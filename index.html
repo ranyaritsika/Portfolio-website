@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio Website</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous" />
+  <link href="./style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Dark Mode -->
+  <input type="checkbox" id="toggle" hidden>
+  <label for="toggle" class="theme-btn">🌙</label>
+  <div class="page">
+    <!-- Header -->
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom main">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <span class="fs-4">Ranya Ritsika</span>
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+        <li class="nav-item"><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link">Social Links</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+      </ul>
+    </header>
+
+    <!-- Introduction -->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img src="./assets/image.png" class="d-block mx-lg-auto img-fluid rounded-circle" alt="Profile Photo"
+            loading="lazy" style="width: 400px; height: 400px; object-fit: cover" />
+        </div>
+        <div class="col-lg-6" style="color:black; font-family:'Times New Roman', Times, serif;">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+            Introduction
+          </h1>
+          <div class="intro">
+            <p class="lead">
+              I am Ranya Ritsika, a 1st year undergraduate student. I am currently
+              pursuing bachelor degree in Information Technology. I am a mentee in
+              Lean in cohort in the circle web development.Apart from that I know python and
+              wish to grow more.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Projects -->
+    <section id="projects" class="projects py-5">
+      <div class="container">
+        <h2 class="text-center mb-5" style="font-weight:900; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Projects</h2>
+
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="project-card">
+              <h5>Portfolio website</h5>
+              <p>
+                A personal portfolio website created using HTML, CSS, and
+                Bootstrap to showcase my work and skills.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-6 mb-4">
+            <div class="project-card">
+              <h5>HTML mini project</h5>
+              <p>
+                A beginner-friendly HTML project on creating birthday invitation
+                card focusing on basics of html.
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 mb-4">
+              <div class="project-card">
+                <h5>CSS mini project</h5>
+                <p>
+                  A beginner-friendly CSS project on creating LAOS flag
+                  focusing on using div tag and css.
+
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Achievements -->
+
+    <section id="achievements" class="achievements py-5">
+      <div class="container">
+        <h2 class="text-center mb-5" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Achievements</h2>
+
+        <div class="row">
+
+          <div class="col-md-4 mb-4">
+            <div class="achievement-card">
+              <h5>HTML & CSS</h5>
+              <p>Completed fundamentals of HTML and CSS.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="achievement-card">
+              <h5>Competitions</h5>
+              <p>Participated in few hackathons.</p>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-4">
+            <div class="achievement-card">
+              <h5>Frontend Projects</h5>
+              <p>Built multiple beginner-level frontend projects.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Social links -->
+    <section id="contact" class="container text-center section">
+      <h2 style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Connect With Me</h2>
+      <a href="https://github.com/ranyaritsika" class="btn btn-dark">GitHub</a>
+      <a href="https://www.linkedin.com/in/ranya-ritsika-aab392384?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+        class="btn btn-primary">LinkedIn</a>
+    </section>
+
+    <!-- footer -->
+    <div class="container">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
+            <svg class="bi" width="30" height="24" aria-hidden="true">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-body-secondary">2026 Ranya Ritsika</span>
+        </div>
+      </footer>
+
+    </div>
+</body>
+
+</html>

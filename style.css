@@ -1,0 +1,158 @@
+header.main {
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; 
+}
+
+section, .container {
+  scroll-margin-top: 80px;
+}
+
+.main{
+	background-color:#0F2854;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/* Light/dark mode */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+header.main {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: #0F2854;
+}
+
+
+section, .container {
+  scroll-margin-top: 80px; 
+}
+
+
+.theme-btn {
+  cursor: pointer;
+  padding: 6px 10px;
+  border-radius: 50%;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 14px;
+  position: fixed;
+  top: 10px;
+  right: 20px;
+  z-index: 2000; 
+}
+
+
+#toggle:checked ~ .page {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+#toggle:checked ~ .page * {
+  color: #ffffff;
+}
+
+#toggle:checked ~ .page header.main {
+  background-color: #121212;
+  border-color: #333;
+}
+
+
+#toggle:checked ~ .page .project-card,
+#toggle:checked ~ .page .achievement-card {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+
+#toggle:checked ~ .page .btn {
+  color: #ffffff;
+}
+
+
+#toggle:checked ~ .page a.nav-link {
+  color: #ffffff;
+}
+
+#toggle:checked ~ .page a.nav-link.active {
+  background-color: #4988C4;
+  color: #ffffff;
+}
+
+
+
+.fs-4{
+	color:white;
+}
+
+/* PROJECT */
+.projects {
+  background-color: #BDE8F5;
+}
+
+.project-card {
+  background: #4988C4;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  height: 100%;
+}
+
+.project-card h5 {
+  font-weight: 800;
+  margin-bottom: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.project-card p {
+  color: black;
+  line-height: 1.6;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* Achievements */
+.achievements {
+  background-color:hsl(195, 65%, 80%) ;
+}
+
+.achievement-card {
+  background: #4988C4;
+  padding: 20px;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+  height: 100%;
+}
+
+.achievement-card h5 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.achievement-card p {
+  color: black;
+  font-size: 15px;
+}
